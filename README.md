@@ -1,10 +1,10 @@
 # ZRURLProtocol
-ZRURLProtocol is encapsulated of NSURLProtocol which can intercept all request in UIWebView
+ZRURLProtocol is encapsulated of NSURLProtocol which can intercept all requests in UIWebView
 
 ## Purpose
->> 1. To intercept all request in UIWebView 
->> 2. Want to mock NSURLRequest while requesting in UIWebView
->> 3. Want to replace some of images in HTML page request by local images
+>> 1. To intercept all requests in UIWebView 
+>> 2. Want to mock/simulate NSURLRequest while requesting in UIWebView
+>> 3. Want to replace some of images in HTML pages requesting by local images
 
 #### Apple Official Demo and Documentation
 - [NSURLProtocol Tutorial in Apple Demo](https://developer.apple.com/library/content/samplecode/CustomHTTPProtocol/Introduction/Intro.html)
