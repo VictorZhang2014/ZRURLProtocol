@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90ABF60D1E616B010054EA44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90ABF60C1E616B010054EA44 /* main.m */; };
+		90ABF6101E616B010054EA44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90ABF60F1E616B010054EA44 /* AppDelegate.m */; };
+		90ABF6131E616B010054EA44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90ABF6121E616B010054EA44 /* ViewController.m */; };
+		90ABF6161E616B010054EA44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90ABF6141E616B010054EA44 /* Main.storyboard */; };
+		90ABF6181E616B010054EA44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90ABF6171E616B010054EA44 /* Assets.xcassets */; };
+		90ABF61B1E616B010054EA44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90ABF6191E616B010054EA44 /* LaunchScreen.storyboard */; };
+		90ABF6251E616B3D0054EA44 /* ZRURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 90ABF6241E616B3D0054EA44 /* ZRURLProtocol.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		90ABF6081E616B010054EA44 /* ZRURLProtocol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZRURLProtocol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90ABF60C1E616B010054EA44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		90ABF60E1E616B010054EA44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		90ABF60F1E616B010054EA44 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		90ABF6111E616B010054EA44 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		90ABF6121E616B010054EA44 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		90ABF6151E616B010054EA44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90ABF6171E616B010054EA44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90ABF61A1E616B010054EA44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90ABF61C1E616B010054EA44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90ABF6231E616B3D0054EA44 /* ZRURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRURLProtocol.h; sourceTree = "<group>"; };
+		90ABF6241E616B3D0054EA44 /* ZRURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRURLProtocol.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90ABF6051E616B010054EA44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90ABF5FF1E616B010054EA44 = {
+			isa = PBXGroup;
+			children = (
+				90ABF60A1E616B010054EA44 /* ZRURLProtocol */,
+				90ABF6091E616B010054EA44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90ABF6091E616B010054EA44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90ABF6081E616B010054EA44 /* ZRURLProtocol.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90ABF60A1E616B010054EA44 /* ZRURLProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				90ABF6221E616B240054EA44 /* Source */,
+				90ABF60E1E616B010054EA44 /* AppDelegate.h */,
+				90ABF60F1E616B010054EA44 /* AppDelegate.m */,
+				90ABF6111E616B010054EA44 /* ViewController.h */,
+				90ABF6121E616B010054EA44 /* ViewController.m */,
+				90ABF6141E616B010054EA44 /* Main.storyboard */,
+				90ABF6171E616B010054EA44 /* Assets.xcassets */,
+				90ABF6191E616B010054EA44 /* LaunchScreen.storyboard */,
+				90ABF61C1E616B010054EA44 /* Info.plist */,
+				90ABF60B1E616B010054EA44 /* Supporting Files */,
+			);
+			path = ZRURLProtocol;
+			sourceTree = "<group>";
+		};
+		90ABF60B1E616B010054EA44 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90ABF60C1E616B010054EA44 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90ABF6221E616B240054EA44 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				90ABF6231E616B3D0054EA44 /* ZRURLProtocol.h */,
+				90ABF6241E616B3D0054EA44 /* ZRURLProtocol.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90ABF6071E616B010054EA44 /* ZRURLProtocol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90ABF61F1E616B010054EA44 /* Build configuration list for PBXNativeTarget "ZRURLProtocol" */;
+			buildPhases = (
+				90ABF6041E616B010054EA44 /* Sources */,
+				90ABF6051E616B010054EA44 /* Frameworks */,
+				90ABF6061E616B010054EA44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZRURLProtocol;
+			productName = ZRURLProtocol;
+			productReference = 90ABF6081E616B010054EA44 /* ZRURLProtocol.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90ABF6001E616B010054EA44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Victor Studio.";
+				TargetAttributes = {
+					90ABF6071E616B010054EA44 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = B873AZ7BS6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 90ABF6031E616B010054EA44 /* Build configuration list for PBXProject "ZRURLProtocol" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90ABF5FF1E616B010054EA44;
+			productRefGroup = 90ABF6091E616B010054EA44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90ABF6071E616B010054EA44 /* ZRURLProtocol */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90ABF6061E616B010054EA44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90ABF61B1E616B010054EA44 /* LaunchScreen.storyboard in Resources */,
+				90ABF6181E616B010054EA44 /* Assets.xcassets in Resources */,
+				90ABF6161E616B010054EA44 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90ABF6041E616B010054EA44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90ABF6131E616B010054EA44 /* ViewController.m in Sources */,
+				90ABF6101E616B010054EA44 /* AppDelegate.m in Sources */,
+				90ABF60D1E616B010054EA44 /* main.m in Sources */,
+				90ABF6251E616B3D0054EA44 /* ZRURLProtocol.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		90ABF6141E616B010054EA44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90ABF6151E616B010054EA44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90ABF6191E616B010054EA44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90ABF61A1E616B010054EA44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90ABF61D1E616B010054EA44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		90ABF61E1E616B010054EA44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90ABF6201E616B010054EA44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B873AZ7BS6;
+				INFOPLIST_FILE = ZRURLProtocol/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.victor.studio.ZRURLProtocol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		90ABF6211E616B010054EA44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B873AZ7BS6;
+				INFOPLIST_FILE = ZRURLProtocol/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.victor.studio.ZRURLProtocol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90ABF6031E616B010054EA44 /* Build configuration list for PBXProject "ZRURLProtocol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90ABF61D1E616B010054EA44 /* Debug */,
+				90ABF61E1E616B010054EA44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90ABF61F1E616B010054EA44 /* Build configuration list for PBXNativeTarget "ZRURLProtocol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90ABF6201E616B010054EA44 /* Debug */,
+				90ABF6211E616B010054EA44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90ABF6001E616B010054EA44 /* Project object */;
+}
